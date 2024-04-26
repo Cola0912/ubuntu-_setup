@@ -23,6 +23,9 @@ sudo snap install --classic code
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
+##discodeのインストールとアップデート
+wget https://discord.com/api/download/stable\?platform\=linux\&format\=deb -O /tmp/discord-update.deb && sudo apt install -y /tmp/discord-update.deb
+
 ##install howdy 顔認証のやつ
 sudo apt-get install -y v4l-utils
 sudo add-apt-repository ppa:boltgolt/howdy
