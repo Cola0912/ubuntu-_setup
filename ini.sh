@@ -22,10 +22,6 @@ sudo snap install --classic code
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
-##gitのユーザー設定
-git config --global user.email "0912cocacola@gmail.com"
-git config --global user.name "shusei Akiya"
-
 ##install howdy 顔認証のやつ
 sudo apt-get install -y v4l-utils
 sudo add-apt-repository ppa:boltgolt/howdy
