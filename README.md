@@ -14,7 +14,8 @@ chmod ubuntu-setup/setup.sh +x
 
 ## klipper用エイリアス
 
-接続したMCUのパスを'by-id'と'by-path'の療法を表示
+接続したMCUのパスを'by-id'と'by-path'の両方を表示
+setup.sh実行時に.bashrcに追記
 
 ```bash
 lsdev
