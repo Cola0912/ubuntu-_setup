@@ -11,3 +11,21 @@ git clone　https://github.com/Cola0912/ubuntu-setup.git
 chmod ubuntu-setup/setup.sh +x
 ./ubuntu-setup/setup.sh
 ```
+
+##klipper用エイリアス
+
+接続したMCUのパスを'by-id'と'by-path'の療法を表示
+
+```bash
+lsdev
+```
+
+###実行例
+
+```bash
+$ lsdev
+by-id is
+//dev/serial/by-id/usb-Klipper_*********
+by-path is
+//dev/serial/by-path/pci-00*********
+```
