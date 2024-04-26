@@ -12,7 +12,7 @@ chmod ubuntu-setup/setup.sh +x
 ./ubuntu-setup/setup.sh
 ```
 
-##klipper用エイリアス
+## klipper用エイリアス
 
 接続したMCUのパスを'by-id'と'by-path'の療法を表示
 
@@ -20,7 +20,7 @@ chmod ubuntu-setup/setup.sh +x
 lsdev
 ```
 
-###実行例
+### 実行例
 
 ```bash
 $ lsdev
