@@ -28,10 +28,10 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 wget https://discord.com/api/download/stable\?platform\=linux\&format\=deb -O /tmp/discord-update.deb && sudo apt install -y /tmp/discord-update.deb
 
 ##install howdy 顔認証のやつ
-sudo apt-get install -y v4l-utils
-sudo add-apt-repository ppa:boltgolt/howdy
-sudo apt update -y
-sudo apt install howdy -y
+#sudo apt-get install -y v4l-utils
+#sudo add-apt-repository ppa:boltgolt/howdy
+#sudo apt update -y
+#sudo apt install howdy -y
 
 ##CIT wifi下でのgitのSSH設定
 ##mkdir .ssh
