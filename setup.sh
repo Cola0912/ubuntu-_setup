@@ -13,6 +13,8 @@ source ./.bashrc
 ##よく使う物のインストール
 sudo apt install -y git python3 ssh gcc nano vim translate-shell snap curl blender freecad
 
+sudo echo "set linenumbers" >> /etc/nanorc
+
 ##CIT　wifi下での時刻設定 
 ## 2024年度から必要なくなった
 ##echo "curl -sfLk https://git.io/set_date | sh" >> ~/.bashrc
