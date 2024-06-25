@@ -44,4 +44,8 @@ wget https://discord.com/api/download/stable\?platform\=linux\&format\=deb -O /t
 ##	User git
 ##	Port 443
 ##	IdentityFile ~/.ssh/id_rsa" >> ~/.ssh/config
+
+##キーボードショートカットに追加
+## gnome-session-quit --power-off
+## gnome-session-quit --reboot
  
