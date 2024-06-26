@@ -22,7 +22,13 @@ echo "set linenumbers" >> ~/.nanorc
 ##echo "curl -sfLk https://git.io/set_date | sh" >> ~/.bashrc
 
 ##VScodeのインストール
-sudo snap install --classic code
+## sudo snap install --classic code
+
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-keyring_1.1-1_all.deb
+sudo dpkg -i cuda-keyring_1.1-1_all.deb
+sudo apt-get update
+sudo apt-get -y install cuda-toolkit-12-5
+sudo apt-get install -y cuda-drivers
 
 ##chromeのインストール
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
