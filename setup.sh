@@ -3,6 +3,7 @@
 
 sudo apt update
 sudo apt upgrade -y
+LANG=C xdg-user-dirs-gtk-update
 echo "Hello World"
 echo "export PS1='\[\e[01;32m\]\u@\h\[\e[00m\] \e[1;35m\t \[\e[01;34m\]\w\[\e[00m\]\n\[\e[1;36m\]$\[\e[37m\]'" >> ~/.bashrc
 echo "alias lsdev='echo "by-id is" && ls //dev/serial/by-id/* && echo -e "\nby-path is" && ls //dev/serial/by-path/*'" >> ~/.bashrc
@@ -29,6 +30,7 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 ##discodeのインストールとアップデート
 wget https://discord.com/api/download/stable\?platform\=linux\&format\=deb -O /tmp/discord-update.deb && sudo apt install -y /tmp/discord-update.deb
+
 
 ##install howdy 顔認証のやつ
 #sudo apt-get install -y v4l-utils
